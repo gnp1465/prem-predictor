@@ -82,7 +82,7 @@ function getTeamMeta(apiName) {
   return teamMeta[name] || defaultTeamMeta;
 }
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://prem-predictor-production.up.railway.app";
 
 export default function Home() {
   const [fixtures, setFixtures] = useState([]);
